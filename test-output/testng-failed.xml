@@ -5,8 +5,6 @@
     <classes>
       <class name="tests.BaseTest">
         <methods>
-          <include name="testInvalidMobileListing"/>
-          <include name="testCarWashSearch"/>
           <include name="testGymSearchAndExcelExport" invocation-numbers="0"/>
           <include name="tearDown"/>
           <include name="setUp"/>

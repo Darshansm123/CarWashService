@@ -23,7 +23,7 @@ public class CarWashPage extends Base
 	@FindBy(xpath = "//span[contains(text(),'Ratings')]")
 	WebElement sortByRatings;
 
-	@FindBy(xpath = "//*[@id='option-3']/label/div/span[1]")
+	@FindBy(xpath = "//*[@id='option-2']/label/div/span[1]")
 	WebElement ratingOption;
 
 	@FindBy(xpath="//*[@id=\"__next\"]/section/section/div/div[2]/div/div[2]/h1")

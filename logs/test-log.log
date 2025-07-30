@@ -1,0 +1,6 @@
+2025-07-30 20:53:19 INFO  BaseTest:39 - Setting up WebDriver and initializing page objects...
+2025-07-30 20:53:37 INFO  BaseTest:63 - Car wash search completed successfully.
+2025-07-30 20:53:44 INFO  BaseTest:86 - Invalid Mobile Entered: 954492829
+2025-07-30 20:53:44 INFO  BaseTest:87 - Error Message: Please Enter a Valid Mobile Number
+2025-07-30 20:53:51 INFO  BaseTest:125 - Gym data exported successfully for location: Siruseri, Chennai
+2025-07-30 20:53:51 INFO  BaseTest:137 - Tearing down WebDriver...
