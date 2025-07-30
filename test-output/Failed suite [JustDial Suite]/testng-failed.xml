@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [JustDial Suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="All Functional Tests(failed)(failed)">
+    <classes>
+      <class name="tests.BaseTest">
+        <methods>
+          <include name="testCarWashSearch"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.BaseTest -->
+    </classes>
+  </test> <!-- All Functional Tests(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [JustDial Suite]] -->

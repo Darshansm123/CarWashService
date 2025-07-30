@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-30T08:53:02 IST" name="Identify Car Service" finished-at="2025-07-30T08:53:29 IST" duration-ms="27838">
+    <groups>
+    </groups>
+    <test started-at="2025-07-30T08:53:02 IST" name="All Functional Tests" finished-at="2025-07-30T08:53:29 IST" duration-ms="27838">
+      <class name="tests.BaseTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.BaseTest@4d4d8fcf]" started-at="2025-07-30T08:53:02 IST" name="setUp" finished-at="2025-07-30T08:53:07 IST" duration-ms="5343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCarWashSearch()[pri:1, instance:tests.BaseTest@4d4d8fcf]" started-at="2025-07-30T08:53:07 IST" name="testCarWashSearch" finished-at="2025-07-30T08:53:16 IST" duration-ms="8775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarWashSearch -->
+        <test-method signature="testInvalidMobileListing()[pri:2, instance:tests.BaseTest@4d4d8fcf]" started-at="2025-07-30T08:53:16 IST" name="testInvalidMobileListing" finished-at="2025-07-30T08:53:21 IST" duration-ms="4944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidMobileListing -->
+        <test-method signature="testGymSearchAndExcelExport(java.lang.String)[pri:3, instance:tests.BaseTest@4d4d8fcf]" started-at="2025-07-30T08:53:21 IST" name="testGymSearchAndExcelExport" data-provider="locations" finished-at="2025-07-30T08:53:26 IST" duration-ms="4813" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Siruseri, Chennai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGymSearchAndExcelExport -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.BaseTest@4d4d8fcf]" started-at="2025-07-30T08:53:26 IST" name="tearDown" finished-at="2025-07-30T08:53:29 IST" duration-ms="3606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.BaseTest -->
+    </test> <!-- All Functional Tests -->
+  </suite> <!-- Identify Car Service -->
+</testng-results>
