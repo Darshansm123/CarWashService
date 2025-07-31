@@ -1,0 +1,1 @@
+{"uuid":"05459d1f-50ed-47a7-9310-6c7dccf30ba9","name":"Identify Car Service","children":["3876d428-163f-47a3-8366-edad8f6045f0"],"befores":[{"name":"setupAllureResultsFolder","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1753891335499,"stop":1753891335537}],"afters":[],"start":1753891335446,"stop":1753891373969}

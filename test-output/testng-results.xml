@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-30T20:53:18 IST" name="Identify Car Service" finished-at="2025-07-30T20:53:56 IST" duration-ms="37286">
+  <suite started-at="2025-07-31T09:57:52 IST" name="Identify Car Service" finished-at="2025-07-31T09:58:20 IST" duration-ms="28288">
     <groups>
     </groups>
-    <test started-at="2025-07-30T20:53:18 IST" name="All Functional Tests" finished-at="2025-07-30T20:53:56 IST" duration-ms="37286">
+    <test started-at="2025-07-31T09:57:52 IST" name="All Functional Tests" finished-at="2025-07-31T09:58:20 IST" duration-ms="28288">
       <class name="tests.BaseTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.BaseTest@15fc442]" started-at="2025-07-30T20:53:19 IST" name="setUp" finished-at="2025-07-30T20:53:25 IST" duration-ms="6461" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.BaseTest@15fc442]" started-at="2025-07-31T09:57:52 IST" name="setUp" finished-at="2025-07-31T09:57:59 IST" duration-ms="6516" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testCarWashSearch()[pri:1, instance:tests.BaseTest@15fc442]" started-at="2025-07-30T20:53:25 IST" name="testCarWashSearch" finished-at="2025-07-30T20:53:37 IST" duration-ms="12171" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCarWashSearch -->
-        <test-method signature="testInvalidMobileListing()[pri:2, instance:tests.BaseTest@15fc442]" started-at="2025-07-30T20:53:37 IST" name="testInvalidMobileListing" finished-at="2025-07-30T20:53:44 IST" duration-ms="6173" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testInvalidMobileListing -->
-        <test-method signature="testGymSearchAndExcelExport(java.lang.String)[pri:3, instance:tests.BaseTest@15fc442]" started-at="2025-07-30T20:53:44 IST" name="testGymSearchAndExcelExport" data-provider="locations" finished-at="2025-07-30T20:53:51 IST" duration-ms="7484" status="PASS">
+        <test-method signature="testGymSearchAndExcelExport(java.lang.String)[pri:3, instance:tests.BaseTest@15fc442]" started-at="2025-07-31T09:57:59 IST" name="testGymSearchAndExcelExport" data-provider="locations" finished-at="2025-07-31T09:58:17 IST" duration-ms="17741" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,7 +22,69 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGymSearchAndExcelExport -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.BaseTest@15fc442]" started-at="2025-07-30T20:53:51 IST" name="tearDown" finished-at="2025-07-30T20:53:56 IST" duration-ms="4659" status="PASS">
+        <test-method signature="testCarWashSearch()[pri:1, instance:tests.BaseTest@15fc442]" started-at="2025-07-31T09:57:59 IST" name="testCarWashSearch" finished-at="2025-07-31T09:58:10 IST" duration-ms="10965" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Car wash search failed due to exception.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Car wash search failed due to exception.
+at org.testng.Assert.fail(Assert.java:111)
+at tests.BaseTest.testCarWashSearch(BaseTest.java:68)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarWashSearch -->
+        <test-method signature="testInvalidMobileListing()[pri:2, instance:tests.BaseTest@15fc442]" started-at="2025-07-31T09:57:59 IST" name="testInvalidMobileListing" finished-at="2025-07-31T09:58:10 IST" duration-ms="10965" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Invalid mobile listing test failed.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Invalid mobile listing test failed.
+at org.testng.Assert.fail(Assert.java:111)
+at tests.BaseTest.testInvalidMobileListing(BaseTest.java:97)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidMobileListing -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.BaseTest@15fc442]" started-at="2025-07-31T09:58:17 IST" name="tearDown" finished-at="2025-07-31T09:58:20 IST" duration-ms="3865" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
