@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Identify_Car_Service" class="navigator-link">
-              <span class="suite-name border-failed">Identify Car Service</span>
+              <span class="suite-name border-passed">Identify Car Service</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,26 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 2 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Identify_Car_Service" class="hide-methods failed suite-Identify_Car_Service"> (hide)</a> <!-- hide-methods failed suite-Identify_Car_Service -->
-                      <a href="#" panel-name="suite-Identify_Car_Service" class="show-methods failed suite-Identify_Car_Service"> (show)</a> <!-- show-methods failed suite-Identify_Car_Service -->
-                    </span>
-                    <div class="method-list-content failed suite-Identify_Car_Service">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Identify_Car_Service" title="tests.BaseTest" class="method navigator-link" hash-for-method="testCarWashSearch">testCarWashSearch</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Identify_Car_Service" title="tests.BaseTest" class="method navigator-link" hash-for-method="testInvalidMobileListing">testInvalidMobileListing</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Identify_Car_Service -->
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -122,7 +103,17 @@
                     <div class="method-list-content passed suite-Identify_Car_Service">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Identify_Car_Service" title="tests.BaseTest" class="method navigator-link" hash-for-method="testCarWashSearch">testCarWashSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Identify_Car_Service" title="tests.BaseTest" class="method navigator-link" hash-for-method="testGymSearchAndExcelExport(Siruseri, Chennai)">testGymSearchAndExcelExport(Siruseri, Chennai)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Identify_Car_Service" title="tests.BaseTest" class="method navigator-link" hash-for-method="testInvalidMobileListing">testInvalidMobileListing</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Identify_Car_Service -->
@@ -137,46 +128,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Identify_Car_Service" class="panel Identify_Car_Service">
-          <div class="suite-Identify_Car_Service-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">tests.BaseTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testCarWashSearch">
-                  </a> <!-- testCarWashSearch -->
-                  <span class="method-name">testCarWashSearch</span>
-                  <div class="stack-trace">java.lang.AssertionError: Car wash search failed due to exception.
-	at tests.BaseTest.testCarWashSearch(BaseTest.java:68)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 12 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testInvalidMobileListing">
-                  </a> <!-- testInvalidMobileListing -->
-                  <span class="method-name">testInvalidMobileListing</span>
-                  <div class="stack-trace">java.lang.AssertionError: Invalid mobile listing test failed.
-	at tests.BaseTest.testInvalidMobileListing(BaseTest.java:97)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 12 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Identify_Car_Service-class-failed -->
           <div class="suite-Identify_Car_Service-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -185,10 +136,24 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="testCarWashSearch">
+                  </a> <!-- testCarWashSearch -->
+                  <span class="method-name">testCarWashSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="testGymSearchAndExcelExport(Siruseri, Chennai)">
                   </a> <!-- testGymSearchAndExcelExport(Siruseri, Chennai) -->
                   <span class="method-name">testGymSearchAndExcelExport</span>
                   <span class="parameters">(Siruseri, Chennai)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidMobileListing">
+                  </a> <!-- testInvalidMobileListing -->
+                  <span class="method-name">testInvalidMobileListing</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -202,8 +167,8 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;3&quot; parallel=&quot;methods&quot; name=&quot;Identify Car Service&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;3&quot; parallel=&quot;methods&quot; name=&quot;All Functional Tests&quot;&gt;
+&lt;suite name=&quot;Identify Car Service&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;All Functional Tests&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;tests.BaseTest&quot;/&gt;
     &lt;/classes&gt;
@@ -247,22 +212,22 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testGymSearchAndExcelExport')
+data.setCell(0, 1, 'testCarWashSearch')
 data.setCell(0, 2, 'tests.BaseTest')
-data.setCell(0, 3, 17741);
+data.setCell(0, 3, 14048);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testCarWashSearch')
+data.setCell(1, 1, 'testGymSearchAndExcelExport')
 data.setCell(1, 2, 'tests.BaseTest')
-data.setCell(1, 3, 10965);
+data.setCell(1, 3, 9179);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testInvalidMobileListing')
 data.setCell(2, 2, 'tests.BaseTest')
-data.setCell(2, 3, 10965);
+data.setCell(2, 3, 6386);
 window.suiteTableData['Identify_Car_Service']= { tableData: data, tableDiv: 'times-div-Identify_Car_Service'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 39 seconds</span>
+              <span class="suite-total-time">Total running time: 29 seconds</span>
               <div id="times-div-Identify_Car_Service">
               </div> <!-- times-div-Identify_Car_Service -->
             </div> <!-- times-div -->
@@ -294,24 +259,20 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">testCarWashSearch</span>
-                <span class="method-start">6568 ms</span>
+                <span class="method-start">9516 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">testInvalidMobileListing</span>
-                <span class="method-start">6568 ms</span>
+                <span class="method-start">23808 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testGymSearchAndExcelExport(Siruseri, Chennai)</span>
-                <span class="method-start">6568 ms</span>
+                <span class="method-start">30217 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">24327 ms</span>
+                <span class="method-start">39413 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
